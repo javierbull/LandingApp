@@ -1,0 +1,9 @@
+body {
+  background-color: teal;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

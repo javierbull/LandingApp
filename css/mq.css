@@ -1,0 +1,67 @@
+@media (min-width: 320px) and (max-width: 600px ) {
+	body{
+		/* background-color: red; */
+	}
+
+	.banner-block {
+		background-image: url(../img/bg-header.png);
+		height: auto;
+		background-size: cover;
+		padding-bottom: 50px;
+	}
+
+	.history-block h3 {
+		padding-top: 20px;
+	}
+
+	.team-card {
+		width: 90vw;
+	}
+
+	.team-card img {
+		width: 90vw;
+	}
+
+	.work-block h3 {
+		text-align: center;
+	}
+
+	.work-block a {
+		/* background-color: gold; */
+		display: inline-block;
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img-work-1, .img-work-2 {
+		width: 100vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.footer-bottom-left, .footer-bottom-right {
+		text-align: center;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px ) {
+	body{
+		/* background-color: tomato; */
+	}
+
+	.team-card {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.footer-bottom-left, .footer-bottom-right {
+		text-align: center;
+	}
+
+
+}

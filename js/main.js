@@ -10,3 +10,12 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+// Carousel
+$('#blogCarousel').carousel({
+      interval: 4000
+  });
+
+  $('#carouselContent').carousel({
+        interval: 3500
+    });

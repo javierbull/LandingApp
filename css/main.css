@@ -1,9 +1,300 @@
 body {
-  background-color: teal;
+  /* background-color: teal; */
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #3B3B3B;
+}
+
+p {
+  color: #737373;
+}
+
+
+div{
+	outline: 1px solid gray;
 }
 
 .sticky {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
+}
+
+.navbar-brand img {
+  height: 30px;
+}
+
+
+/* banner section */
+.banner {
+  background-image: url(../img/bg.png);
+  height: 100vh;
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+.banner-content {
+  padding-top: 20vh;
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+.phone img {
+  width: 270px;
+}
+
+.banner-text {
+  color: #ffffff;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.banner-text h3 {
+  text-align: right;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+
+}
+
+.banner-text p {
+  font-size: 20px;
+  text-align: right;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.buttons a {
+  margin-left: 20px;
+}
+
+.buttons img {
+  width: 160px;
+  transition: all 0.4s ease-in-out;
+}
+
+.buttons img:hover {
+  transform: scale(1.1);
+}
+
+
+/* fin banner section */
+
+/* BLOQUE ABOUT */
+.about {
+  margin-bottom: 80px;
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  margin-top: 55px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.about p {
+  padding: 0 20px 0 20px;
+}
+
+.contenido {
+  border-radius:15px;
+  background-color:#F3F5F8;
+  padding:0;
+  width:80px;
+  height:80px;
+  margin:auto;
+  text-align:center;
+  display:block;
+  border:5px solid white;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  transition: transform  0.1s cubic-bezier(0, 1.8, 1, 1.8);
+  transition: all 0.5s ease-in-out;
+}
+
+
+.icono {
+  color:#4085F6;
+  position: relative;
+  overflow:hidden;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(-45deg);
+  -ms-transform: translateY(-50%) rotate(-45deg);
+  transform: translateY(-50%) rotate(-45deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.icono i {
+  font-size: 40px;
+  text-align: center;
+}
+
+.about-card {
+  width: 300px;
+  height: 380px;
+  background-color: #ffffff;
+  padding: 50px 20px 30px 20px;
+	text-align: center;
+  box-shadow: 0 2px 20px #bcbab8;
+  transition: all 0.5s ease-in-out;
+}
+
+.about-card h4 {
+   font-size: 24px;
+   margin-top: 45px;
+   margin-bottom: 30px;
+   transition: all 0.5s ease-in-out;
+}
+
+.about-card:hover {
+  transform: scale(1.1);
+}
+
+
+.about-card:hover h4 {
+  color:#4085F6;
+}
+
+.about-card:hover .contenido {
+  background-color: #4085F6;
+}
+
+.about-card:hover .icono {
+  color:#ffffff;
+}
+
+
+/* FIN BLOQUE ABOUT */
+
+
+/* BLOQUE FEATURES */
+.features {
+  background-image: url(../img/bg2.png);
+  height: 100vh;
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+.features h2 {
+  color: #ffffff;
+  /* background-color: gold; */
+  font-size: 30px;
+}
+
+.features p {
+  /* background-color: orange; */
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.features-list {
+  list-style: none;
+  margin-top: 10vh;
+  line-height: 25px;
+}
+
+.features-list li {
+  color: #ffffff;
+}
+
+/* FIN BLOQUE FEATURES */
+
+/* BLOQUE CAPTURAS */
+.capturas {
+  margin-bottom: 180px;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+  bottom: -80px;
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators i {
+    background: #63686e;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    box-shadow: 0 2px 20px #bcbab8;
+}
+
+
+.blog .carousel-indicators .active {
+background: #2C3848;
+}
+
+
+/* FIN BLOQUE CAPTURAS */
+
+
+/* BLOQUE COMENTARIOS */
+
+.comentarios {
+  background-color: #2C3848;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+
+.title-comments{
+  background-color: #2C3848;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0 20px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.comentarios .carousel-item {
+  background-color: #2C3848;
+  background-color: teal;
+  width: 800px;
+  height: 100px;
+  margin: 0 auto;
+
+}
+
+.comment-text {
+  width: 400px;
+}
+
+.comentarios img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.comentarios p {
+  color: #ffffff;
+}
+
+.carousel-control-prev {
+  
+}
+
+
+
+
+
+/* FIN BLOQUE COMENTARIOS */
+
+footer {
+  background-color: teal;
 }

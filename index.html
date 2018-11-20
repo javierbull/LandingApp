@@ -1,60 +1,418 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="img/psyduck.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/mq.css">
-    <title></title>
-  </head>
-  <body>
-    <header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="img/psyduck.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mq.css">
+  <title></title>
+</head>
+<body>
+  <header>
 
-      <section class="menu sticky" id="navbar">
+    <section class="menu sticky" id="navbar">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" class="d-inline-block align-top" alt="">
+                DSRL Cam
+              </a>
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav pull-lg-right ml-auto">
+                  <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#">Acerca de la App</a>
+                  <a class="nav-item nav-link" href="#">Capturas</a>
+                  <a class="nav-item nav-link" href="#">Contacto</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </header>
+  <main>
+    <!-- bloque banner -->
+    <section class="banner">
+      <div class="container banner-content">
+        <div class="phone">
+          <img src="img/phone.png" alt="">
+        </div>
+
+        <div class="banner-text">
+          <div>
+            <h3>
+              La mejor App para obtener
+              fotografías profesionales
+              de una manera sencilla.
+            </h3>
+            <p>
+              DSRL Cam te ayudará a tomar las mejores fotografías
+              desde tu smartphone y unirte a la mejor comunidad
+              fotográfica.
+            </p>
+          </div>
+
+          <div class="buttons">
+            <a href="#">
+              <img src="img/app-store.png" alt="">
+            </a>
+
+            <a href="#">
+              <img src="img/google-play.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- bloque banner -->
+
+    <!-- bloque About -->
+
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <h2 class="title col-sm-12 col-md-12 col-lg-12">
+            Acerca de la App
+          </h2>
+          <p class="text-center">
+            Esta aplicación profesional DSLR Cam convertirá su
+            teléfono en una cámara profesional, con control de
+            cámara manual en ISO, velocidad de obturación,
+            exposición, enfoque manual y otras características
+            como una cámara profesional, que puede llevar su
+            fotografía móvil al próximo nivel. Realice la mejor
+            captura de su foto e incluso grabe su video en
+            resolución 4K UHD. luego muestre su trabajo en
+            la mejor comunidad fotográfica.
+          </p>
+
+
+          <h2 class="title col-sm-12 col-md-12 col-lg-12">
+            Beneficios
+          </h2>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="about-card">
+              <div class="rombo">
+                <div class="contenido">
+                  <div class="icono">
+                    <i class="fas fa-headset"></i>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Tutoriales</h4>
+              <p class="text-color-gray">
+                Dispondrás de muchos tutoriales para
+                que obtengas las mejores fotos y
+                aproveches al máximo la App.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="about-card">
+              <div class="rombo">
+                <div class="contenido">
+                  <div class="icono">
+                    <i class="fas fa-folder"></i>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Colecciones</h4>
+              <p class="text-color-gray">
+                Podrás guardar fotos que te gusten
+                más para acceder a ellas cuando
+                quieras
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="about-card">
+                <div class="rombo">
+                  <div class="contenido">
+                    <div class="icono">
+                      <i class="fas fa-headset"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <h4>Muestra tu Trabajo</h4>
+                <p class="text-color-gray">
+                  Muestra como hiciste tu trabajo y se
+                  parte de la mejor comunidad
+                  fotográfica
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- fin bloque About -->
+
+      <!-- bloque características -->
+      <section class="features">
         <div class="container">
-          <div class="row d-flex justify-content-between align-items-center">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-              <nav class="navbar navbar-expand-lg navbar-dark">
-  							<a class="navbar-brand" href="#">
-  						    <img src="img/Logo.png" class="d-inline-block align-top" alt="">
-  						  </a>
-    						<!-- <a class="navbar-brand" href="#">Navbar</a> -->
-  						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-  						    <span class="navbar-toggler-icon"></span>
-  						  </button>
-  						  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-  						    <div class="navbar-nav pull-lg-right ml-auto">
-  						      <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
-  						      <a class="nav-item nav-link" href="#">ABOUT</a>
-  						      <a class="nav-item nav-link" href="#">EXPERTISE</a>
-  						      <a class="nav-item nav-link" href="#">TEAMS</a>
-  									<a class="nav-item nav-link" href="#">WORKS</a>
-  									<a class="nav-item nav-link" href="#">PEOPLE SAYS</a>
-  									<a class="nav-item nav-link" href="#">CONTACT</a>
-  						    </div>
-    						</div>
-  						</nav>
+          <div class="row">
+            <h2 class="col-sm-12 col-md-12 col-lg-12 title">
+              Características Principales
+            </h2>
+            <p class="col-sm-12 col-md-12 col-lg-10 title">
+              Con DSRL Cam podrás tener las mismas
+              prestaciones que una cámara profesional
+              en la comodidad de tu smartphone.
+            </p>
+
+            <div class="phone col-sm-12 col-md-6 col-lg-6">
+              <img src="img/phone2.png" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <ul class="features-list">
+                <li>
+                  <i class="fas fa-check"></i>
+                  ISO manual
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Enfoque manual
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Balance de blancos manual
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Ajustar la velocidad de obturación
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Ajuste la exposición
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Filtro / efecto de color en tiempo real
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Grabación de cámara de 4K
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Establecer la velocidad de cuadro de video
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Modo de cámara de intervalo / ráfaga
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Geoetiquetado (Versión Pro)
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Estampado de fotos (Versión Pro)
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Guardar en la memoria interna / externa
+                </li>
+              </ul>
             </div>
           </div>
         </div>
+      </section>
+      <!-- fin bloque características -->
 
+      <!-- bloque capturas -->
+      <section class="capturas">
+        <div class="container-fluid">
+
+          <h2 class="title col-sm-12 col-md-12 col-lg-12">
+            Capturas
+          </h2>
+
+
+          <div class="row blog">
+            <div class="col-md-12">
+              <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-indicators">
+                  <i  data-target="#blogCarousel" data-slide-to="0" class="fas fa-arrow-left active"></i>
+                  <i data-target="#blogCarousel" data-slide-to="1" class="fas fa-arrow-right"></i>
+                </div>
+
+                <!-- Carousel items -->
+
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3">
+                          <img src="img/Splash.png" alt="Image" style="max-width:100%;">
+                      </div>
+                      <div class="col-sm-12 col-md-3">
+                          <img src="img/Sign.png" alt="Image" style="max-width:100%;">
+                      </div>
+                      <div class="col-sm-12 col-md-3">
+                          <img src="img/Cuenta.png" alt="Image" style="max-width:100%;">
+                      </div>
+                      <div class="col-sm-12 col-md-3">
+                          <img src="img/Buscar.png" alt="Image" style="max-width:100%;">
+                      </div>
+
+                    </div>
+                    <!--.row-->
+                  </div>
+                  <!--.item-->
+
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3">
+                          <img src="img/cuenta2.png" alt="Image" style="max-width:100%;">
+                      </div>
+                      <div class="col-sm-12 col-md-3">
+                          <img src="img/Info.png" alt="Image" style="max-width:100%;">
+                      </div>
+                      <div class="col-sm-12 col-md-3">
+                          <img src="img/inicio.png" alt="Image" style="max-width:100%;">
+                      </div>
+                      <div class="col-sm-12 col-md-3">
+                          <img src="img/Tutoriales.png" alt="Image" style="max-width:100%;">
+                      </div>
+                    </div>
+                    <!--.row-->
+                  </div>
+                  <!--.item-->
+                </div>
+                <!--.carousel-inner-->
+              </div>
+              <!--.Carousel-->
+            </div>
+          </div>
+        </div>
       </section>
 
-    </header>
-    <main>
+
+      <!-- fin bloque Capturas -->
+
+      <!-- bloque comentarios -->
+      <section class="comentarios">
+        <div class="container">
+          <div class="title-comments">
+            <h4>
+              Nuestros usuarios dicen:
+            </h4>
+          </div>
+
+          <div id="carouselContent" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+
+              <div class="carousel-item active text-left">
+                <div class="d-flex justify-content-center">
+                  <img src="img/user1.jpg" alt="">
+                  <div class="comment-text">
+                    <p>
+                      <i class="fas fa-quote-left"></i>
+                      &nbsp;&nbsp;
+                      Soy una persona que viaja mucho
+                       y me gusta retratar cada momento,
+                       esta app me permite hacerlo de
+                       manera genial.
+                       &nbsp;&nbsp;
+                      <i class="fas fa-quote-right"></i>
+                    </p>
+                    <small>- Julio Crispin</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item  text-left">
+                <div class="d-flex justify-content-center">
+                  <img src="img/user2.jpg" alt="">
+                  <div class="comment-text">
+                    <p>
+                      <i class="fas fa-quote-left"></i>
+                      &nbsp;&nbsp;
+                      La mejor aplicación que he usado
+                      para tomar fotos.
+                       &nbsp;&nbsp;
+                      <i class="fas fa-quote-right"></i>
+                    </p>
+                    <small>- Natalia Sarazi</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item  text-left">
+                <div class="d-flex justify-content-center">
+                  <img src="img/user3.jpg" alt="">
+                  <div class="comment-text">
+                    <p>
+                      <i class="fas fa-quote-left"></i>
+                      &nbsp;&nbsp;
+                      Es como tener una cámara Pro en tu celular,
+                      es muy completa y fácil de usar.
+                       &nbsp;&nbsp;
+                      <i class="fas fa-quote-right"></i>
+                    </p>
+                    <small>- José Torres</small>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+
+              <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden=""></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden=""></span>
+                <span class="sr-only">Next</span>
+              </a>
+
+
+          </div>
+        </div>
+      </section>
+
+      <!-- fin bloque comentarios -->
+
+
+
 
     </main>
     <footer>
 
     </footer>
 
+
+
+
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
   </body>
-</html>
+  </html>

@@ -1,66 +1,91 @@
 @media (min-width: 320px) and (max-width: 600px ) {
+	/* CELULARES */
 	body{
-		/* background-color: red; */
+		background-color: #f9ecec;
 	}
 
-	.banner-block {
-		background-image: url(../img/bg-header.png);
-		height: auto;
-		background-size: cover;
-		padding-bottom: 50px;
+	.navbar {
+		background-color: black;
 	}
 
-	.history-block h3 {
-		padding-top: 20px;
+	.phone img {
+		display: none;
 	}
 
-	.team-card {
-		width: 90vw;
+	.banner-text {
+	  color: #ffffff;
+	  width: 80vw;
 	}
 
-	.team-card img {
-		width: 90vw;
+	.banner-text h3 {
+	  text-align: right;
+	  font-size: 30px;
 	}
 
-	.work-block h3 {
-		text-align: center;
+	.banner-text p {
+	  font-size: 16px;
 	}
 
-	.work-block a {
-		/* background-color: gold; */
-		display: inline-block;
-		margin-bottom: 20px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	/* beneficios */
+
+	.about-card {
+		margin: 0 auto 30px auto;
+
+	}
+	/* fin beneficios */
+
+	.features p {
+		font-size: 13px;
 	}
 
-	.img-work-1, .img-work-2 {
-		width: 100vw;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-
-	.footer-bottom-left, .footer-bottom-right {
-		text-align: center;
+	.carousel-item img{
+	  margin-bottom: 20px;
 	}
 
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px ) {
+	/* PARA TABLETS */
 	body{
-		/* background-color: tomato; */
+		background-color: gold;
 	}
 
-	.team-card {
-		margin-left: auto;
-		margin-right: auto;
+	.banner-text {
+		color: #ffffff;
+		width: 80vw;
 	}
 
-	.footer-bottom-left, .footer-bottom-right {
-		text-align: center;
+	.about-card {
+		margin: 0 auto 30px auto;
+		width: 220px;
+	}
+
+	.about-card h4 {
+	   font-size: 20px;
+	}
+
+	.about-card p {
+		 font-size: 13px;
+	}
+
+	.features h2 {
+		margin-top: 10px;
+	}
+
+	.features p {
+		font-size: 13px;
+		margin-top: -30px;
+		margin-bottom: 10px;
+	}
+
+	.features-list {
+		margin-top: 10px;
+	}
+
+	.features-list li {
+	  color: #ffffff;
+		font-size: 13px;
 	}
 
 

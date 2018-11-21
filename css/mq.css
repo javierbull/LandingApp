@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 600px ) {
 	/* CELULARES */
 	body{
-		background-color: #f9ecec;
+		/* background-color: #f9ecec; */
 	}
 
 	.navbar {
@@ -94,7 +94,7 @@
 @media (min-width: 768px) and (max-width: 1024px ) {
 	/* PARA TABLETS */
 	body{
-		background-color: gold;
+		/* background-color: gold; */
 	}
 
 	.navbar {

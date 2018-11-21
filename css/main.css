@@ -8,6 +8,10 @@ body {
   color: #3B3B3B;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p {
   color: #737373;
 }

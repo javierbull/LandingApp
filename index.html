@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="img/psyduck.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -31,10 +32,10 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav pull-lg-right ml-auto">
-                  <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="#">Acerca de la App</a>
-                  <a class="nav-item nav-link" href="#">Capturas</a>
-                  <a class="nav-item nav-link" href="#">Contacto</a>
+                  <a class="nav-item nav-link active" href="#banner">Inicio <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#about">Acerca de la App</a>
+                  <a class="nav-item nav-link" href="#capturas">Capturas</a>
+                  <a class="nav-item nav-link" href="#contact">Contacto</a>
                 </div>
               </div>
             </nav>
@@ -47,7 +48,7 @@
   </header>
   <main>
     <!-- bloque banner -->
-    <section class="banner">
+    <section class="banner" id="#banner">
       <div class="container banner-content">
         <div class="phone">
           <img src="img/phone.png" alt="">
@@ -83,7 +84,7 @@
 
     <!-- bloque About -->
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="row">
           <h2 class="title col-sm-12 col-md-12 col-lg-12">
@@ -242,7 +243,7 @@
       <!-- fin bloque características -->
 
       <!-- bloque capturas -->
-      <section class="capturas">
+      <section class="capturas" id="capturas">
         <div class="container-fluid">
 
           <h2 class="title col-sm-12 col-md-12 col-lg-12">
@@ -323,10 +324,10 @@
           </div>
 
           <div id="carouselContent" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner comment-carousel" role="listbox">
 
-              <div class="carousel-item active text-left">
-                <div class="d-flex justify-content-center">
+              <div class="carousel-item  active text-left">
+                <div class="item-group ">
                   <img src="img/user1.jpg" alt="">
                   <div class="comment-text">
                     <p>
@@ -339,13 +340,13 @@
                        &nbsp;&nbsp;
                       <i class="fas fa-quote-right"></i>
                     </p>
-                    <small>- Julio Crispin</small>
+                    <span>- Julio Crispin</span>
                   </div>
                 </div>
               </div>
 
               <div class="carousel-item  text-left">
-                <div class="d-flex justify-content-center">
+                <div class="item-group ">
                   <img src="img/user2.jpg" alt="">
                   <div class="comment-text">
                     <p>
@@ -356,13 +357,13 @@
                        &nbsp;&nbsp;
                       <i class="fas fa-quote-right"></i>
                     </p>
-                    <small>- Natalia Sarazi</small>
+                    <span>- Natalia Sarazi</span>
                   </div>
                 </div>
               </div>
 
               <div class="carousel-item  text-left">
-                <div class="d-flex justify-content-center">
+                <div class="item-group">
                   <img src="img/user3.jpg" alt="">
                   <div class="comment-text">
                     <p>
@@ -373,7 +374,7 @@
                        &nbsp;&nbsp;
                       <i class="fas fa-quote-right"></i>
                     </p>
-                    <small>- José Torres</small>
+                    <span>- José Torres</span>
                   </div>
                 </div>
               </div>
@@ -398,11 +399,79 @@
 
       <!-- fin bloque comentarios -->
 
+      <!-- CONTACTO -->
+
+      <section class="contact-block" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-5 contact-img">
+              <img src="img/phones.png" alt="">
+            </div>
+
+            <div class="form-block col-sm-12 col-md-12 col-lg-7">
+              <h2 class="title col-sm-12 col-md-12 col-lg-12">
+                Contáctanos
+              </h2>
+              <div class="line"></div>
+              <p class="title col-sm-12 col-md-12 col-lg-12">
+                Estamos encantados de saber de ti,
+                envíanos un mensaje.
+              </p>
+
+              <form class="" action="index.html" method="post">
+                <input type="text" name="name" placeholder="Nombre" />
+                <input type="email" name="email" placeholder="Email" />
+                <textarea name="mensaje" placeholder="Tu mensaje"></textarea>
+
+                <input type="submit" value="Enviar Mensaje" class="btn">
+
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+      <!-- FIN BLOQUE CONTACTO -->
 
 
 
     </main>
     <footer>
+      <div class="container">
+        <div class="row">
+          <p class="col-sm-12 col-md-12 col-lg-12 text-center">
+            Copyright © 2018 DSRL App  All rights Reserved.
+          </p>
+        </div>
+
+        <div class="rrss-block">
+          <div class="social-icon">
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="social-icon">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="social-icon">
+            <a href="#">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+          </div>
+          <div class="social-icon">
+            <a href="#">
+              <i class="fas fa-rss"></i>
+            </a>
+          </div>
+          <div class="social-icon">
+            <a href="#">
+              <i class="fab fa-pinterest-p"></i>
+            </a>
+        </div>
+      </div>
 
     </footer>
 

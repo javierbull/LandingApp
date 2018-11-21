@@ -341,6 +341,11 @@ background: #2C3848;
 
 .contact-block img{
   width: 350px;
+  transition: all 0.4s ease-in-out;
+}
+
+.contact-block img:hover {
+  transform: scale(1.1);
 }
 
 .contact-block h2 {

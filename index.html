@@ -418,12 +418,12 @@
                 envíanos un mensaje.
               </p>
 
-              <form class="" action="index.html" method="post">
-                <input type="text" name="name" placeholder="Nombre" />
-                <input type="email" name="email" placeholder="Email" />
-                <textarea name="mensaje" placeholder="Tu mensaje"></textarea>
+              <form class="" action="index.html" method="post" onsubmit="return validar();">
+                <input type="text" name="name" placeholder="Nombre" onkeypress="return soloLetras(event)" id="name"/>
+                <input type="email" name="email" placeholder="Email" id="email"/>
+                <textarea name="mensaje" placeholder="Tu mensaje" id="mensaje"></textarea>
 
-                <input type="submit" value="Enviar Mensaje" class="btn">
+                <input type="submit" value="Enviar Mensaje" class="btn" id="submit">
 
               </form>
             </div>

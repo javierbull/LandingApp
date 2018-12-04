@@ -70,7 +70,7 @@ p {
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-
+  color: #fff;
 }
 
 .banner-text p {
@@ -107,7 +107,9 @@ p {
   margin-top: 55px;
   margin-bottom: 45px;
   text-align: center;
+  background-color: #fff!important;
 }
+
 
 .about p {
   padding: 0 20px 0 20px;
@@ -149,12 +151,18 @@ p {
 
 .about-card {
   width: 300px;
-  height: 380px;
-  background-color: #ffffff;
+  height: 400px;
+  background-color: #fff;
   padding: 50px 20px 30px 20px;
 	text-align: center;
   box-shadow: 0 2px 20px #bcbab8;
   transition: all 0.5s ease-in-out;
+}
+
+.about-card p {
+  font-size: 18px;
+  /* color: tomato; */
+  font-weight: lighter;
 }
 
 .about-card h4 {
@@ -201,9 +209,16 @@ p {
   transform: scale(1.1);
 }
 
+.title2 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  margin-top: 55px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
 .features h2 {
   color: #ffffff;
-  /* background-color: gold; */
   font-size: 30px;
 }
 
@@ -233,29 +248,22 @@ p {
   margin-bottom: 180px;
 }
 
-.blog .carousel-indicators {
-	left: 0;
-	top: auto;
-  bottom: -80px;
-}
+.section-carousel {
 
-/* The colour of the indicators */
-.blog .carousel-indicators i {
-    background: #63686e;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px;
-    box-shadow: 0 2px 20px #bcbab8;
 }
 
 
-.blog .carousel-indicators .active {
-background: #2C3848;
+.section-carousel .item {
+  background-color: gold!important;
+  /* width:250px!important; */
+  height: auto!important;
+  padding: 0!important;
+}
+
+.section-carousel img {
+  width: 100%!important;
+  height: 100%!important;
+  object-fit: cover!important;
 }
 
 
@@ -272,10 +280,13 @@ background: #2C3848;
 
 .title-comments{
   background-color: #2C3848;
-  color: #fff;
   text-align: center;
   padding: 30px 0 20px 0;
   font-family: 'Montserrat', sans-serif;
+}
+
+.color-white {
+  color: #fff;
 }
 
 .comentarios .carousel-item {
@@ -366,9 +377,13 @@ background: #2C3848;
   padding: 0 60px;
 }
 
+.bg-gray {
+  background-color: #F7F7F7!important;
+}
+
+
 input, textarea {
   padding: 15px;
-  border: 1px solid #ccc;
   border-radius: 3px;
   margin-bottom: 10px;
   width: 100%;

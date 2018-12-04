@@ -12,6 +12,15 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/mq.css">
+  <link rel="stylesheet" href="css/docs.theme.min.css">
+
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- javascript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+
   <title></title>
 </head>
 <body>
@@ -34,7 +43,7 @@
                 <div class="navbar-nav pull-lg-right ml-auto">
                   <a class="nav-item nav-link active" href="#banner">Inicio <span class="sr-only">(current)</span></a>
                   <a class="nav-item nav-link" href="#about">Acerca de la App</a>
-                  <a class="nav-item nav-link" href="#capturas">Capturas</a>
+                  <a class="nav-item nav-link" href="#demos">Capturas</a>
                   <a class="nav-item nav-link" href="#contact">Contacto</a>
                 </div>
               </div>
@@ -172,10 +181,10 @@
       <section class="features">
         <div class="container">
           <div class="row">
-            <h2 class="col-sm-12 col-md-12 col-lg-12 title">
+            <h2 class="col-sm-12 col-md-12 col-lg-12 title2">
               Características Principales
             </h2>
-            <p class="col-sm-12 col-md-12 col-lg-10 title">
+            <p class="col-sm-12 col-md-12 col-lg-10 title2">
               Con DSRL Cam podrás tener las mismas
               prestaciones que una cámara profesional
               en la comodidad de tu smartphone.
@@ -243,82 +252,66 @@
       <!-- fin bloque características -->
 
       <!-- bloque capturas -->
-      <section class="capturas" id="capturas">
-        <div class="container-fluid">
+
+
+
+        <!--  Demos -->
+        <section class="section-carousel" id="demos">
 
           <h2 class="title col-sm-12 col-md-12 col-lg-12">
             Capturas
           </h2>
 
-
-          <div class="row blog">
-            <div class="col-md-12">
-              <div id="blogCarousel" class="carousel slide" data-ride="carousel">
-
-                <div class="carousel-indicators">
-                  <i  data-target="#blogCarousel" data-slide-to="0" class="fas fa-arrow-left active"></i>
-                  <i data-target="#blogCarousel" data-slide-to="1" class="fas fa-arrow-right"></i>
+          <div class="row">
+            <div class="large-12 columns">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <img src="img/1.png" alt="">
+                </div>
+                <div class="item">
+                  <img src="img/2.png" alt="">
+                </div>
+                <div class="item">
+                  <img src="img/3.png" alt="">
+                </div>
+                <div class="item">
+                  <img src="img/4.png" alt="">
+                </div>
+                <div class="item">
+                  <img src="img/5.png" alt="">
+                </div>
+                <div class="item">
+                  <img src="img/6.png" alt="">
+                </div>
+                <div class="item">
+                  <img src="img/7.png" alt="">
+                </div>
+                <div class="item">
+                  <img src="img/8.png" alt="">
                 </div>
 
-                <!-- Carousel items -->
-
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-                    <div class="row">
-                      <div class="col-sm-12 col-md-3">
-                          <img src="img/Splash.png" alt="Image" style="max-width:100%;">
-                      </div>
-                      <div class="col-sm-12 col-md-3">
-                          <img src="img/Sign.png" alt="Image" style="max-width:100%;">
-                      </div>
-                      <div class="col-sm-12 col-md-3">
-                          <img src="img/Cuenta.png" alt="Image" style="max-width:100%;">
-                      </div>
-                      <div class="col-sm-12 col-md-3">
-                          <img src="img/Buscar.png" alt="Image" style="max-width:100%;">
-                      </div>
-
-                    </div>
-                    <!--.row-->
-                  </div>
-                  <!--.item-->
-
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-sm-12 col-md-3">
-                          <img src="img/cuenta2.png" alt="Image" style="max-width:100%;">
-                      </div>
-                      <div class="col-sm-12 col-md-3">
-                          <img src="img/Info.png" alt="Image" style="max-width:100%;">
-                      </div>
-                      <div class="col-sm-12 col-md-3">
-                          <img src="img/inicio.png" alt="Image" style="max-width:100%;">
-                      </div>
-                      <div class="col-sm-12 col-md-3">
-                          <img src="img/Tutoriales.png" alt="Image" style="max-width:100%;">
-                      </div>
-                    </div>
-                    <!--.row-->
-                  </div>
-                  <!--.item-->
-                </div>
-                <!--.carousel-inner-->
               </div>
-              <!--.Carousel-->
             </div>
+
           </div>
-        </div>
+
+
+        </section>
+
+
+
       </section>
 
 
       <!-- fin bloque Capturas -->
 
+
+
       <!-- bloque comentarios -->
       <section class="comentarios">
         <div class="container">
           <div class="title-comments">
-            <h4>
+            <h4 class="color-white">
               Nuestros usuarios dicen:
             </h4>
           </div>
@@ -409,11 +402,11 @@
             </div>
 
             <div class="form-block col-sm-12 col-md-12 col-lg-7">
-              <h2 class="title col-sm-12 col-md-12 col-lg-12">
+              <h2 class="title col-sm-12 col-md-12 col-lg-12 bg-gray">
                 Contáctanos
               </h2>
               <div class="line"></div>
-              <p class="title col-sm-12 col-md-12 col-lg-12">
+              <p class="title col-sm-12 col-md-12 col-lg-12 bg-gray">
                 Estamos encantados de saber de ti,
                 envíanos un mensaje.
               </p>
@@ -433,7 +426,6 @@
 
       </section>
       <!-- FIN BLOQUE CONTACTO -->
-
 
 
     </main>
@@ -478,10 +470,11 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
+
   </body>
   </html>
